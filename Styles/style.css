@@ -13,3 +13,17 @@ header {
     line-height: 19px;
     font-style: normal;
 }
+
+.hero {
+    margin: 50px 0px 40px 0px;
+}
+
+.hero-header h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    font-size: 50px;
+    color: #083E9E;
+    margin-top: 150px;
+}
