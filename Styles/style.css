@@ -97,11 +97,28 @@ header {
 
 .total-btn {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 25px;
     width: 50%;
     padding: 10px;
     display: flex;
     justify-content: center;
+}
+
+.start-earning-btn {
+    width: 296px;
+    height: 60px;
+    background: #083E9E;
+    border-radius: 3px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    color: white;
 }
 
 
