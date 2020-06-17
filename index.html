@@ -21,47 +21,46 @@
     <!-- header starts here -->
 
     <header>
-        <section class="">
-            <section class="container px-0">
-                <nav class="navbar navbar-expand-lg  navbar-light">
-                    <a class="navbar-brand a-text flex" href="index.html">
-                        <img src="./Images/logo.png" alt="Logo">
-                    </a>
-                    <button class="navbar-toggler" style="color: lemonchiffon !important;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <section class="container px-5">
+            <nav class="navbar navbar-expand-lg  navbar-light">
+                <a class="navbar-brand a-text flex" href="index.html">
+                    <img src="./Images/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" style="color: lemonchiffon !important;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                        <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto">
 
-                        </ul>
+                    </ul>
 
-                        <ul class="navbar-nav my-2 my-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link mx-3" href="#">About <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link mx-3" href="#">Stories</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link mx-3" href="#">FAQ<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link mx-3" href="#"> Blog</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link mx-3" href="#"> Login</a>
-                            </li>
-                        </ul>
+                    <ul class="navbar-nav my-2 my-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link mx-3" href="#">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link mx-3" href="#">Stories</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link mx-3" href="#">FAQ<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link mx-3" href="#"> Blog</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link mx-3" href="#"> Login</a>
+                        </li>
+                    </ul>
 
-                    </div>
-                </nav>
-            </section>
+                </div>
+            </nav>
+        </section>
     </header>
 
     <section class="hero">
-        <div class="container">
+        <div class="container px-5">
 
             <div class="row">
                 <div class="col-6 hero-header">
@@ -74,6 +73,58 @@
             </div>
 
         </div>
+    </section>
+
+    <section class="interest-form">
+
+        <div class="container px-5">
+            <div class="row">
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="long" class="savings-label mt-5">  How long do you want to save?</label>
+                        <input id="long" onkeyup="display()" type="text" class="form-control form-control-sm" required placeholder="10 days">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="rate" class="savings-label mt-5"> Interest rate </label>
+                        <input id="rate" onkeyup="display()" type="text" class="form-control form-control-sm" disabled required value="10%">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="amount" class="savings-label mt-5">  Amount</label>
+                        <input id="amount" onkeyup="display()" type="text" class="form-control form-control-sm" required placeholder="₦ 3000">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="interest" class="savings-label mt-5"> Interest Earned</label>
+                        <input id="interest" onkeyup="display()" type="text" class="form-control form-control-sm" required placeholder="₦ 300">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="interest-total">
+        <div class="total">
+            <p class="total-balance">TOTAL BALANCE</p>
+            <p class="sum">₦3,300</p>
+            <p class="summary">Saving <span>₦3000 </span> for <span>10 days</span> will result in a balance of <span>₦3,3000.</span></p>
+
+
+        </div>
+
+        <div class="total-btn"> <button class="t">ghwghewgh</button></div>
+
+
+
     </section>
 </body>
 

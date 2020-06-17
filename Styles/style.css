@@ -15,7 +15,7 @@ header {
 }
 
 .hero {
-    margin: 50px 0px 40px 0px;
+    margin: 50px 0px 60px 0px;
 }
 
 .hero-header h1 {
@@ -27,3 +27,82 @@ header {
     color: #083E9E;
     margin-top: 150px;
 }
+
+.interest-form {
+    margin-bottom: 80px;
+}
+
+.form-control-sm {
+    width: 35vw;
+    height: 45px;
+    border: 0.5px solid #838282;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.savings-label {
+    font-family: Poppins;
+    color: #838282;
+    line-height: 27px;
+}
+
+.interest-total {
+    margin-bottom: 40px;
+}
+
+.total {
+    margin: auto;
+    width: 50%;
+    background: #F0FAFF;
+    padding: 10px;
+    width: 546px;
+    height: 240px;
+}
+
+.total p {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    line-height: 18px;
+}
+
+.total .total-balance {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    color: black;
+}
+
+.total .sum {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37.89px;
+    line-height: 40px;
+    color: #385693;
+}
+
+.total .summary {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #838282;
+}
+
+.total-btn {
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Media Queries */
