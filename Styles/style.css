@@ -47,7 +47,7 @@ header {
 }
 
 .interest-total {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .total {
@@ -119,6 +119,89 @@ header {
 
 .btn:hover {
     color: white;
+}
+
+.interest-breakdown-div {
+    /* height: 336px; */
+    background: #FAFCFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+    margin: 10px 0px 80px 0px
+}
+
+.interest-breakdown-div h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 72px;
+    color: #838282;
+}
+
+.interest-breakdown-div p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #838282;
+}
+
+.plans-header h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 63px;
+    text-align: center;
+    color: #083E9E;
+}
+
+.plans {
+    margin-bottom: 80px;
+}
+
+.plans-header span {
+    text-align: center;
+    line-height: 27px;
+    text-align: center;
+    color: #57709E;
+    display: flex;
+    justify-content: center;
+}
+
+.piggy-cards {
+    margin-bottom: 80px;
+}
+
+.card1 {
+    background: #B6E1F2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 260px;
+    height: 160px;
+}
+
+.card2 {
+    width: 260px;
+    height: 160px;
+    background: #FFEAF5;
+    border-radius: 5px;
+}
+
+.card3 {
+    width: 260px;
+    height: 160px;
+    background: #E7F6FF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.card4 {
+    width: 260px;
+    height: 160px;
+    background: #DCFFEB;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 
