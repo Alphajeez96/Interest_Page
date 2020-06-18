@@ -5,6 +5,7 @@
 
 
         const selectday = () => {
+            event.preventDefault();
             let e = document.getElementById("ddlViewBy");
             let strUser = e.options[e.selectedIndex].text;
             document.getElementById("days-count").innerHTML = strUser;
@@ -31,15 +32,19 @@
 
             let simpleInt = principal * interestRate;
             console.log(simpleInt)
-            let amount = (principal + simpleInt).toFixed(2);
+
+            let amount = (principal + simpleInt);
 
             if (isNaN(amount)) {
                 return document.getElementById("intertestearned").value = "₦" + ' ' + "0.00";
             }
 
-            document.getElementById("intertestearned").value = "₦" + " " + simpleInt.toFixed(2);
+            document.getElementById("intertestearned").value = "₦" + " " + simpleInt;
             document.getElementById("amountpayable").innerHTML = "₦ " + " " + amount;
             document.getElementById("amountpayables").innerHTML = "₦ " + " " + amount
+
+
+
 
         }
 

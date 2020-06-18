@@ -89,7 +89,7 @@
                         <label for="term" class="savings-label mt-5">  How long do you want to save?</label>
                         <!-- <input id="term" type="text" class="form-control form-control-sm" required placeholder="10 days"> -->
 
-                        <select onclick="selectday()" class="select2 form-control" id="ddlViewBy" required placeholder="10 days">
+                        <select onclick="selectday();" class="select2 form-control" id="ddlViewBy" required placeholder="10 days">
                           
                               <option value="10days">10 - 30 days</option>
                               <option value="31days">31 - 60 days</option>  
@@ -113,7 +113,7 @@
                 <div class="col">
                     <div class="form-group">
                         <label for="amount" class="savings-label mt-5">  Amount</label>
-                        <input id="amount" ^[0-9]*$ onkeyup="display();simpleInterest()" type="text" class="form-control form-control-sm" required placeholder=" 3000">
+                        <input id="amount" ^[0-9]*$ onkeyup="display();" type="text" class="form-control form-control-sm" required placeholder=" 3000">
                     </div>
                 </div>
 
@@ -134,7 +134,7 @@
             <p class="sum" id="amountpayable">₦0</p>
             <p class="summary">Saving <span id="neu-principal">₦0 </span> for <span id="days-count">0 days</span> will result in a balance of <span id="amountpayables">₦0  .</span></p>
         </div>
-        <div class="total-btn"> <button id="trigger-btn" class="btn btn-sm start-earning-btn">Start earning now! </button></div>
+        <div class="total-btn"> <button class="btn btn-sm start-earning-btn" onclick="simpleInterest()">Calculate </button></div>
     </section>
 
     <section class="interest-breakdown container px-5">
