@@ -226,5 +226,26 @@ header {
     color: white;
 }
 
+.foot-head {
+    padding-top: 85px
+}
+
+.head-caption {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 46px;
+    /* identical to box height */
+    /* text-align: left; */
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    line-height: 24px
+}
+
 
 /* Media Queries */
