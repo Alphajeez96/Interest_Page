@@ -1,19 +1,12 @@
         let principal = 0;
         let interestRate = 0;
-        // let term = 0;
         let timesCompounded = 0;
-
         let amount = 0;
 
         const selectday = () => {
             let e = document.getElementById("ddlViewBy");
             let strUser = e.options[e.selectedIndex].text;
             document.getElementById("days-count").innerHTML = strUser;
-            // document.getElementById('trigger-btn').onclick = () => true
-
-            $("#trigger-btn").one("click", function() {
-                return false
-            });
 
             if (strUser === '10 - 30 days') {
                 interestRate = parseFloat(document.getElementById("rate").value = 6 + '%')
@@ -33,21 +26,19 @@
 
             let principal = parseFloat(document.getElementById("amount").value);
             console.log(principal)
-                // let interestRate = parseFloat(document.getElementById("rate").value)
             interestRate = interestRate / 100;
 
-            // let term = parseFloat(document.getElementById("term").value);
             let simpleInt = principal * interestRate;
             console.log(simpleInt)
             let amount = (principal + simpleInt).toFixed(2);
 
-
+            if (isNaN(amount)) {
+                return document.getElementById("intertestearned").value = "₦" + ' ' + "0.00";
+            }
 
             document.getElementById("intertestearned").value = "₦" + " " + simpleInt.toFixed(2);
             document.getElementById("amountpayable").innerHTML = "₦ " + " " + amount;
-            document.getElementById("amountpayables").innerHTML = "₦ " + " " + amount;
-
-            // document.getElementById('trigger-btn').onclick = () => false
+            document.getElementById("amountpayables").innerHTML = "₦ " + " " + amount
 
         }
 
