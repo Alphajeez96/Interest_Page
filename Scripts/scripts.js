@@ -23,27 +23,35 @@
             }
         }
 
-        const simpleInterest = () => {
-            event.preventDefault();
+        let simpleInterest = () => {
+                event.preventDefault();
 
-            let principal = parseFloat(document.getElementById("amount").value);
-            console.log(principal)
-            interestRate = interestRate / 100;
+                let principal = parseFloat(document.getElementById("amount").value);
+                console.log(principal)
+                interestRate = interestRate / 100;
 
-            let simpleInt = principal * interestRate;
-            console.log(simpleInt)
+                let simpleInt = principal * interestRate;
+                console.log(simpleInt)
 
-            let amount = (principal + simpleInt);
+                let amount = (principal + simpleInt);
 
-            if (isNaN(amount)) {
-                return document.getElementById("intertestearned").value = "₦" + ' ' + "0.00";
+                if (isNaN(amount)) {
+                    return document.getElementById("intertestearned").value = "₦" + ' ' + "0.00";
+                }
+
+                document.getElementById("intertestearned").value = "₦" + " " + simpleInt;
+                document.getElementById("amountpayable").innerHTML = "₦ " + " " + amount;
+                document.getElementById("amountpayables").innerHTML = "₦ " + " " + amount
+
             }
+            // let charge = simpleInterest();
 
-            document.getElementById("intertestearned").value = "₦" + " " + simpleInt;
-            document.getElementById("amountpayable").innerHTML = "₦ " + " " + amount;
-            document.getElementById("amountpayables").innerHTML = "₦ " + " " + amount
+        // const charges = () => {
 
-        }
+        //     let textes = charge.value;
+        //     let amountpayable = document.getElementById("amountpayable")
+        //     amountpayable.innerHTML = '₦' + ' ' + textes;
+        // }
 
         $(function() {
             var $select = $('.js-example-basic-single');
