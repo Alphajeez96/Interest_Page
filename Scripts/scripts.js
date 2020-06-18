@@ -18,7 +18,9 @@ const simpleInterest = () => {
 
     let amount = (principal + simpleInt).toFixed(2);
 
-    document.getElementById("interestpayable").innerHTML = "₦" + " " + simpleInt.toFixed(2);
+    document.getElementById("intertestearned").value = "₦" + " " + simpleInt.toFixed(2);
+    // document.getElementById("intertestearned").value = simpleInt;
+
     document.getElementById("amountpayable").innerHTML = "₦ " + " " + amount;
     document.getElementById("amountpayables").innerHTML = "₦ " + " " + amount;
 
