@@ -26,6 +26,16 @@ const simpleInterest = () => {
 }
 
 
+$(function() {
+    var $select = $('.js-example-basic-single');
+
+    $select.select2({
+        theme: 'classic',
+        width: 'resolve'
+    });
+});
+
+
 const display = () => {
     let txt = document.getElementById("amount").value;
     let neudisplay = document.getElementById('neu-principal')

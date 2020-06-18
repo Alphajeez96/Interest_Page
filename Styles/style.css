@@ -396,3 +396,23 @@ ul {
 
 
 /* Media Queries */
+
+.options {
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+}
+
+
+/* select {
+    font-size: 14px;
+    border: none;
+    width: 100%;
+    background: white;
+}
+
+.special {
+    font-weight: bold !important;
+    color: #fff !important;
+    background: #bc0000 !important;
+    text-transform: uppercase;
+} */
