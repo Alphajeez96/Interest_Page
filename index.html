@@ -87,9 +87,9 @@
                 <div class="col">
                     <div class="form-group">
                         <label for="term" class="savings-label mt-5">  How long do you want to save?</label>
-                        <input id="term" type="text" class="form-control form-control-sm" required placeholder="10 days">
-                        <!-- 
-                        <select class="select2 form-control" required placeholder="10 days">
+                        <!-- <input id="term" type="text" class="form-control form-control-sm" required placeholder="10 days"> -->
+
+                        <select onclick="selectday()" class="select2 form-control" id="ddlViewBy" required placeholder="10 days">
                           
                               <option value="10days">10 - 30 days</option>
                               <option value="31days">31 - 60 days</option>  
@@ -97,7 +97,7 @@
                               <option value="91days">91days to 2years</option>
                               <option value="2years">Over 2 years</option>
                         
-                          </select> -->
+                          </select>
 
 
                     </div>
@@ -106,7 +106,7 @@
                 <div class="col">
                     <div class="form-group">
                         <label for="rate" class="savings-label mt-5"> Interest rate </label>
-                        <input id="rate" type="text" class="form-control form-control-sm" value="10%" disabled required>
+                        <input id="rate" type="text" class="form-control form-control-sm" value="6%" disabled required>
                     </div>
                 </div>
 
@@ -132,7 +132,7 @@
         <div class="total">
             <p class="total-balance">TOTAL BALANCE</p>
             <p class="sum" id="amountpayable">₦3,300</p>
-            <p class="summary">Saving <span id="neu-principal">₦3000 </span> for <span>10 days</span> will result in a balance of <span id="amountpayables">₦3,3000.</span></p>
+            <p class="summary">Saving <span id="neu-principal">₦3000 </span> for <span id="days-count">10 days</span> will result in a balance of <span id="amountpayables">₦3,3000.</span></p>
         </div>
         <div class="total-btn"> <button onclick="simpleInterest()" class="btn btn-sm start-earning-btn">Start earning now! </button></div>
     </section>
