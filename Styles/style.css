@@ -221,7 +221,7 @@ header {
 .foot {
     margin-top: 40px;
     /* width: 1440px; */
-    height: 420px;
+    /* height: 420px; */
     background: #083E9E;
     color: white;
 }
@@ -244,7 +244,14 @@ header {
 ul {
     list-style-type: none;
     padding: 0px;
-    line-height: 24px
+    line-height: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    /* font-weight: normal; */
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    color: #FFFFFF;
 }
 
 
