@@ -15,7 +15,7 @@ header {
 }
 
 .hero {
-    margin: 50px 0px 60px 0px;
+    margin: 50px 0px 20px 0px;
 }
 
 .hero-header h1 {
@@ -171,6 +171,56 @@ header {
 
 .piggy-cards {
     margin-bottom: 80px;
+}
+
+.card-text {
+    margin: 10px;
+    margin-top: 50px
+}
+
+.card1 .card-text h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #385693;
+}
+
+.card2 .card-text h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #B35988;
+}
+
+.card3 .card-text h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5991B3;
+}
+
+.card4 .card-text h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 111.5%;
+    color: #61806E;
+}
+
+.card-text p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    color: #3B4856;
 }
 
 .card1 {
