@@ -28,6 +28,22 @@ header {
     margin-top: 150px;
 }
 
+
+/* Media Queries for hero */
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 991px) {
+    section .hero {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        /* display: flex;
+        flex-wrap: wrap; */
+        background-color: red;
+    }
+}
+
 .interest-form {
     margin-bottom: 80px;
 }
@@ -394,9 +410,6 @@ ul {
 .same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
 }
-
-
-/* Media Queries */
 
 .options {
     /* border: 1px solid #e5e5e5; */
