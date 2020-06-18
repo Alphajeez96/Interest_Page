@@ -265,5 +265,9 @@ ul {
     color: #FFFFFF;
 }
 
+.social-icon {
+    cursor: pointer;
+}
+
 
 /* Media Queries */
