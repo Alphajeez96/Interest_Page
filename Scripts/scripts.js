@@ -3,6 +3,7 @@
         let timesCompounded = 0;
         let amount = 0;
 
+
         const selectday = () => {
             let e = document.getElementById("ddlViewBy");
             let strUser = e.options[e.selectedIndex].text;
@@ -41,7 +42,6 @@
             document.getElementById("amountpayables").innerHTML = "₦ " + " " + amount
 
         }
-
 
         $(function() {
             var $select = $('.js-example-basic-single');
