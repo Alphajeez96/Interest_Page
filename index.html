@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -67,11 +67,11 @@
         <div class="container px-5">
 
             <div class="row">
-                <div class="col-6 hero-header">
+                <div class="col-6 hero-header" data-aos="fade-right">
                     <strong><h1>How much interest can I earn?</h1></strong>
                 </div>
 
-                <div class="col-6">
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="col-6">
                     <img src="./Images/hero.png" alt="Hero">
                 </div>
             </div>
@@ -160,28 +160,28 @@
         <div class="container px-5">
             <div class="row">
 
-                <div class="col mx-3 card1">
+                <div class="col mx-3  card1" data-aos="zoom-in">
                     <div class="card-text">
                         <h6>Piggybank</h6>
                         <p>Strict savings automatically. Daily, weekly or Monthly. 10% p.a</p>
                     </div>
                 </div>
 
-                <div class="col mx-3 card2">
+                <div class="col mx-3 card2" data-aos="zoom-in">
                     <div class="card-text">
                         <h6>Flex Naira</h6>
                         <p>Flexible savings for emergencies. Free transfers, withdrawals etc. 10% p.a</p>
                     </div>
                 </div>
 
-                <div class="col mx-3 card3">
+                <div class="col mx-3 card3" data-aos="zoom-in">
                     <div class="card-text">
                         <h6>Safelock </h6>
                         <p>Lock funds to avoid tempations. Upfront interest. Up to 13% p.a</p>
                     </div>
                 </div>
 
-                <div class="col  mx-3 card4">
+                <div class="col  mx-3 card4" data-aos="zoom-in">
                     <div class="card-text">
                         <h6>Investify </h6>
                         <p>Browse through our various available investment options</p>
@@ -250,6 +250,9 @@
 
     <script src="./Scripts/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
