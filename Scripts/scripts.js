@@ -43,9 +43,6 @@
             document.getElementById("amountpayable").innerHTML = "₦ " + " " + amount;
             document.getElementById("amountpayables").innerHTML = "₦ " + " " + amount
 
-
-
-
         }
 
         $(function() {
